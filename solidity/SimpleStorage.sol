@@ -26,8 +26,8 @@ contract SimpleStorage {
     mapping(string => uint256) public nameToFavoriteNumber;
 
     // this function modifies the state of the blockchain
-    function store(uint256 _favoriteNumber) public {
-        myFavoriteNumber = _favoriteNumber;
+    function store(uint256 favoriteNumber) public virtual {
+        myFavoriteNumber = favoriteNumber;
     }
 // view or pure are given to functions that dont change the state of the blockchain
     function retrieve() public view returns (uint256) {
@@ -37,8 +37,9 @@ contract SimpleStorage {
     //storage is permenant and stay in the contract forever
     // calldata and memory are for storing temporary storage location for the furation of the function call
     // function parameters cannot be storage. They can only be calldata or memory as they only last when calling the function
-    function addPerson(string memory _name, uint256 _favoriteNumber) public {
-        listOfPeople.push(Person(_favoriteNumber, _name));
-        nameToFavoriteNumber[_name] = _favoriteNumber;
+    function addPerson(string memory name, uint256 favoriteNumber) public {
+        listOfPeople.push(Person(favoriteNumber, name));
+        nameToFavoriteNumber[name] = favoriteNumber;
     }
 }
+//commit needs to be made
