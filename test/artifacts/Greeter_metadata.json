@@ -1,0 +1,90 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "hello",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "set",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "yourName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"test/M0hCPETQEeiVcg6irwbSYA_3380421044d011e8afa3f903c9071b9c_Greeter.sol": "Greeter"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"test/M0hCPETQEeiVcg6irwbSYA_3380421044d011e8afa3f903c9071b9c_Greeter.sol": {
+			"keccak256": "0x1a274987319fb52340020fe30dd122ad22632ce988a71182f85122f43c8cbcb4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://afbe37b5c530be102f0a650ca71a801714a5284262693e8a6f734c4b2fddaf5b",
+				"dweb:/ipfs/QmfQCzakM4sSwKHiemiuUcFWWeFQgDLypFwirk1KnBR7Tx"
+			]
+		}
+	},
+	"version": 1
+}

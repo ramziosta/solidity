@@ -30,6 +30,43 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "simplestorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "newSimpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,19 +97,19 @@
 	},
 	"sources": {
 		"solidity/SimpleStorage.sol": {
-			"keccak256": "0x7f77f9037df7cdf3545d3cb3f524354c04fdf97c7ea48301990947c672f33fcf",
+			"keccak256": "0xf492e9a30751b29f3b89e73bfc0db3c556946b5cc0c606f3225061ae27c876fc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e68d49fa5a94d432b983ae6875fa847a65259c8a6fbea06b45360bb6ee96a78c",
-				"dweb:/ipfs/QmS7reRARLEDsnaNpY4iPruNk5CmYh37pHc9dnaZ3ehqkV"
+				"bzz-raw://e382af2791fb87f287e79f1ca80667504adc2bca1a1d9bb5666eddd89ea3c337",
+				"dweb:/ipfs/QmayA7cgAqG6txAijatDtNKvc1MJSF8RpdCYBMbkY4rqzt"
 			]
 		},
 		"solidity/StorageFactory.sol": {
-			"keccak256": "0x316c45d6a3b1d85121a67f993125d6be06bc9e2408f984101a7915ad3f73270e",
+			"keccak256": "0xef50ff5c21421085de1da4d45a988e35019dc413eba585db2261bb315c04a023",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://52d5c2ac07d28517553eb34a1b56e396cd11d0219d08aa16fa28d7d4c4cac738",
-				"dweb:/ipfs/QmZ2rV8VNw7cU2RhHRUVk7LAoDREC4MLpbrUneySmurPvZ"
+				"bzz-raw://e5adda579faa7114e587c50abccedd5bc41be6d77c789c8927791114e79ddb63",
+				"dweb:/ipfs/QmWoWkqEwnGmSAxvhuU9JfF5YEx6T9MdgdLoE8NFPgH4HV"
 			]
 		}
 	},
